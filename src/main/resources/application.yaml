@@ -1,0 +1,10 @@
+#spring.application.name=e-com
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/shop
+    username: admin
+    password: 52669
